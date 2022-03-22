@@ -59,7 +59,7 @@ src/pages/nomePages/__tests__
 # src/server/models
 src/server/node_modules
 # src/server/routes
-# src/server/services
+src/server/services
 
 # src/helpers
 # src/helpers/__tests__
