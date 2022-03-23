@@ -28,6 +28,7 @@ const List = styled.div`
     border-radius: 20px;
     border: 1px solid var(--color-line-one);
     transition: var(--transition);
+    background: none;
 
     &:hover {
       background-color: var(--color-bg-hover-button);
@@ -90,7 +91,10 @@ const ShowTodo = (props) => {
           <p className={ todos.isComplete ? 'todosComplete' : '' } onClick={() => { todoComplete(todos); }}>{ todos.toDo }</p>
         </div>
         <div>
-          <EditIcon className="edit" />
+          <EditIcon className="edit" onClick={() => {
+            props.todoToUpdate(todos);
+            props.showPopUp();
+          }} />
           <CloseIcon className="close" onClick={() => { removeTodo(todos._id); }} />
         </div>
       </li>
@@ -99,7 +103,7 @@ const ShowTodo = (props) => {
 
   return (
     <Main>
-      <List className="list">
+      <List>
         <ul>
           { todoList }
         </ul>

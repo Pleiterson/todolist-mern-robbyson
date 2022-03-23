@@ -45,6 +45,7 @@ const Menu = styled.div`
     border-radius: 3px;
     border: 1px solid var(--color-line-one);
     transition: var(--transition);
+    background: none;
 
     &:hover {
       background-color: var(--color-bg-hover-button);
@@ -75,7 +76,7 @@ const AddTodo = (props) => {
         <h1>TODO List - Case Robbyson</h1>
 
         <Menu>
-          <input type="text" placeholder = "Adicione um To Do..." value={ todo } onChange = { event => setTodo(event.target.value) } />
+          <input type="text" placeholder = "Adicione um To Do..." value={ todo } onChange = {(event) => setTodo(event.target.value) } />
           <input type="button" value="Adicionar To Do" onClick = {() => addTodo()} />
         </Menu>
       </Container>
