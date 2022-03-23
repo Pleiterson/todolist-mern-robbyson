@@ -7,13 +7,13 @@ const Main = styled.div`
   align-items: center;
   justify-content: center;
   margin: 20px;
-  /* width: 80%; */
 `;
 
 const Container = styled.div`
   text-align: center;
   margin: 20px auto;
   width: 80%;
+  
   h1 {
     margin-bottom: 20px;
   }

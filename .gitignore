@@ -25,7 +25,7 @@ yarn-error.log*
 -------------------------
 src/__mocks__
 
-# src/_assets/
+src/_assets/
 src/_assets/css
 # src/_assets/fonts
 src/_assets/icons
@@ -40,19 +40,20 @@ src/_environments/__tests__
 src/_translate
 src/_translate/languages/__tests__
 
-# src/components
+src/components
 
-# src/constants
+src/constants
 # src/constants/__tests__
 
 # src/containers
 src/containers/__tests__
 
+
 # o nome da feature pode mudar conforme o avanço do projeto
 # src/pages
-src/pages/nomePages/__tests__
-# src/pages/nomeFeatures/components
-# src/pages/nomeFeatures/containers
+src/pages/Home/__tests__
+# src/pages/Home/components
+src/pages/Home/containers
 
 # src/server
 # src/server/config
@@ -61,8 +62,8 @@ src/server/node_modules
 # src/server/routes
 src/server/services
 
-# src/helpers
+src/helpers
 # src/helpers/__tests__
 
-# src/utils
+src/utils
 # src/utils/__tests__

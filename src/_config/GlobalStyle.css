@@ -10,8 +10,12 @@
 
   --color-text-one: #282a36;
   --color-text-two: #cfd8dc;
-
+  
   --color-line-one: #282a36;
+  
+  --color-icon-one: #4fe0b6;
+  --color-icon-two: #2196f3;
+  --color-icon-three: #f44336;
 
   --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   --color-bg-hover-button: rgba(68, 71, 90, 0.1);
